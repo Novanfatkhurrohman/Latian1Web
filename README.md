@@ -1,2 +1,0 @@
-#Latian membuat portfolio
-Bootstrap

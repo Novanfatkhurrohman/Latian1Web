@@ -27,3 +27,20 @@
 .ml-auto{
     margin-right:2rem;
 }
+.jumbotron{
+    background-color: #b13e49;
+    color:#fff;
+}
+.card{
+    width: 18rem;
+     margin:auto;
+     background-color: #b13e49;
+     color: #ffffff;
+}
+.card-img-top{
+    width: 300px;
+    height: 300px;
+}
+.card-text{
+    margin:auto;
+}

@@ -34,7 +34,7 @@
 .card{
     width: 18rem;
      margin:auto;
-     background-color: #b8a6a8;
+     background-color: #8df1ec;
      color: #ffffff;
 }
 .card-img-top{
@@ -46,5 +46,5 @@
 }
 .btn-primary{
     background-color: rgb(65, 78, 74);
-    width: 30px;
+    width: 90px;
 }

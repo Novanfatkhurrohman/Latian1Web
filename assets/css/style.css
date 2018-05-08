@@ -44,6 +44,7 @@
 .card-text{
     margin:auto;
 }
-.btn{
-    background-color: aquamarine;
+.btn-primary{
+    background-color: rgb(65, 78, 74);
+    width: 30px;
 }

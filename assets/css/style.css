@@ -34,7 +34,7 @@
 .card{
     width: 18rem;
      margin:auto;
-     background-color: #82b3b0;
+     background-color: #b95260;
      color: #ffffff;
 }
 .card-img-top{
@@ -48,3 +48,4 @@
     background-color: rgb(65, 78, 74);
     width: auto;  
 }   
+ 

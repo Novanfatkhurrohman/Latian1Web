@@ -1,85 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="icon" href="assets/img/logo.png">
-<script src="assets/bootstrap/js/jquery-slim.min.js"></script>
-<link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <!-- navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Smit</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Profil</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <script src="assets/bootstrap/js/popper.min.js"></script>
-<!--jumbotron-->
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4 text-center">Novan Fatkhurrohman</h1>
-    <p class="lead text-center">Melangkah Untuk kemenangan</p>
-  </div>
-</div>
+<html> 
+  <head> 
+  	<title>wegodev developer</title>
+  	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  	<script type="text/javascript" src="js/velocity.min.js"></script>
+  	<script type="text/javascript" src="js/velocity.ui.js"></script>
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg">
-      <div class="card">
-        <img class="card-img-top" src="assets/img/kiki.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5>Yuk nyuci</h5>
-          <p class="card-text"><strong>Jasa cuci sepatu </strong> anda males menyuci japri aja ke kami</p>
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <a href="#" class="btn btn-primary">Boking</a>
-              <span aria-hidden="true">&times;</span>
-            </button>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+  	<link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head> 
+
+  <body> 
+
+  	<div id="intro">
+  		<div id="text">
+        <span>w</span><span>e</span><span>g</span><span>o</span><span>d</span><span>e</span><span>v</span>
+        <span>d</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
+      </div>
+
+  		<div id="intro-button">
+        <button id="start" onclick="animasitIntroOut();">START</button>
+      </div>
+    </div>
+    
+    <section id="main">
+      <nav id="menu">
+        <ul>
+          <li>
+            <a href="what_we_do">What we do</a>
+          </li>
+          <li>
+            <a href="our_team">Our team</a>
+          </li>
+          <li>
+            <a href="back_to_intro">Back to intro</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="what_we_do" class="container-content">
+        <img src="images/laptop.jpg" />
+
+        <h3 class="title">What we do</h3>
+
+        <div>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed ligula ex. Sed eu egestas dui. Maecenas vitae ornare lacus, ut ultricies purus. Integer dictum ligula sed felis dignissim, in rhoncus augue malesuada. Pellentesque dictum, massa at malesuada lobortis, tortor metus sagittis erat, at finibus dolor magna eu est. Donec aliquam dui quis lobortis vulputate. Nulla pharetra gravida placerat. Phasellus ac mauris urna. Vestibulum vestibulum dolor non rutrum ornare. Ut viverra consectetur lectus, nec facilisis elit mattis vitae.</p>
+
+          <p>Proin molestie, metus ac dapibus condimentum, felis nibh vulputate neque, id convallis diam urna ac neque. Integer tempor iaculis tincidunt. Curabitur eget turpis tortor. Curabitur vel interdum turpis, tempus commodo augue. Nullam turpis diam, facilisis et blandit sit amet, interdum sit amet velit. Quisque rutrum quam ac bibendum ullamcorper. Duis lectus odio, maximus vitae mauris ac, sagittis lacinia purus. Vivamus scelerisque bibendum ex, vel imperdiet lectus placerat in. Mauris laoreet aliquet nibh quis semper. Pellentesque feugiat luctus purus, at interdum mauris placerat a. Curabitur ligula nunc, feugiat eu ante id, fringilla sodales velit. Quisque dignissim, est id imperdiet tristique, magna massa tincidunt mi, in consequat mi metus nec felis. Etiam mattis suscipit quam, sed scelerisque quam sagittis at.</p>
         </div>
       </div>
-    </div>
-    <div class="col-lg">
-      <div class="card">
-        <img class="card-img-top" src="assets/img/jumanji.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5>Gajahmada Cinema</h5>
-          <p class="card-text">sakssikan dibioskop kesayangan anda.</p>
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <a href="#" class=" btn btn-primary">Boking</a>
-              <span aria-hidden="true">&times;</span>
-            </button>
+
+      <div id="our_team" class="container-content">
+        <div class="members top240">
+          <img src="images/laptop.jpg" />
+          <h3>Ayyubi Wegodev</h3>
+          <span>Chief Executive Officer</span>
+        </div>
+
+        <div class="members top170">
+          <img src="images/laptop.jpg" />
+          <h3>Fatih Wegodev</h3>
+          <span>Chief Technology Officer</span>
+        </div>
+
+        <div class="members top240">
+          <img src="images/laptop.jpg" />
+          <h3>Sultan Wegodev</h3>
+          <span>Senior Programmer</span>
+        </div>
+
+        <div class="members top170">
+          <img src="images/laptop.jpg" />
+          <h3>Sarah Wegodev</h3>
+          <span>Creative Director</span>
         </div>
       </div>
-    </div>
-    <div class="col-lg">
-      <div class="card">
-        <img class="card-img-top" src="assets/img/perang.jpg" alt="Card image cap">
-        <div class="card-body"></div>
-        <h5>Nonton Kuy</h5>   
-          <p class="card-text">jadwal rilis besok tanggal ahad </p>
-          <button type="button" >
-              <a href="#" class="btn btn-primary">Boking</a>
-              <span aria-hidden="true">&times;</span>
-            </button>
-        </div> 
-      </div>
-    </div>
-  </div>
-</div>
-</body>
+
+    </section>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </body>
+
 </html>
